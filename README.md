@@ -2,7 +2,7 @@
 
 Codex-first AI coding kit for practical vibe coding: enough structure to keep agents sharp, not so much ceremony that small work becomes paperwork.
 
-This kit is inspired by heavier agent harnesses, but it is intentionally smaller. It focuses on the workflows that repeatedly matter when working with Codex, Claude Code, or similar AI coding agents:
+This kit is intentionally small and opinionated. It focuses on the workflows that repeatedly matter when working with Codex, Claude Code, or similar AI coding agents:
 
 - fast repo orientation before edits
 - durable project context
@@ -80,4 +80,19 @@ For tiny changes, Codex can skip straight from scout to execute. For risky chang
 - `.agents/skills` is the canonical skill tree.
 - `.codex/agents` provides optional role prompts for research, planning, implementation, debugging, and review.
 - `process/context/all-context.md` is project-specific and should evolve as the codebase evolves.
-- This repo avoids cloning the large source kit structure. It keeps the useful concepts and trims the rest.
+- The kit should stay personal, practical, and easy to install into real projects without dragging in heavyweight process by default.
+
+## Future Work
+
+This is a starting point, not the finished system. Likely next improvements:
+
+- Add a safer update flow so existing installs can receive kit changes without overwriting project context.
+- Add a `mv-autopilot` lane for longer autonomous runs with clear hard stops and resume notes.
+- Add richer setup detection for common stacks such as Next.js, Python, FlutterFlow-adjacent backends, n8n workflow repos, and WordPress/WooCommerce projects.
+- Add optional browser/UI verification guidance for frontend work.
+- Add plan and context validators that catch stale commands, missing verification gates, and broken skill metadata.
+- Add examples of good project-specific `process/context/all-context.md` files.
+- Add an optional Claude Code compatibility layer after the Codex workflow feels solid.
+- Add packaging and release notes for sharing the kit across multiple personal/client projects.
+
+Future versions can borrow useful ideas from advanced agent harness patterns, but every addition should earn its place by making day-to-day AI coding calmer, faster, or safer.
