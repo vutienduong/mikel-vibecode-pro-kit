@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Context"
+  short_description: "Maintain durable repo knowledge"
+  default_prompt: "Use $mv-context to refresh process/context/all-context.md."

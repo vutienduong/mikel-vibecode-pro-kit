@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Plan"
+  short_description: "Write practical implementation plans"
+  default_prompt: "Use $mv-plan to turn this idea into an executable plan."

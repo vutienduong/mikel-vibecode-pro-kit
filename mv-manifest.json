@@ -1,0 +1,28 @@
+{
+  "name": "mikel-vibecode-pro-kit",
+  "version": "0.1.0",
+  "target": "codex-first",
+  "include": [
+    "AGENTS.md",
+    ".agents/skills/**",
+    ".codex/**",
+    "process/context/all-context.md",
+    "process/development-protocols/**",
+    "process/_templates/**"
+  ],
+  "kitOnly": [
+    "README.md",
+    "install.sh",
+    "scripts/validate-kit.mjs"
+  ],
+  "skills": [
+    "mv-setup",
+    "mv-context",
+    "mv-scout",
+    "mv-plan",
+    "mv-execute",
+    "mv-debug",
+    "mv-review",
+    "mv-handoff"
+  ]
+}

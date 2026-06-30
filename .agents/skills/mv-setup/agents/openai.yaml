@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Setup"
+  short_description: "Bootstrap Codex context and workflow"
+  default_prompt: "Use $mv-setup to prepare this repo for Codex-first AI coding."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Review"
+  short_description: "Review diffs for real risks"
+  default_prompt: "Use $mv-review to review this diff before shipping."

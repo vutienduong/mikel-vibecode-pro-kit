@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Execute"
+  short_description: "Implement with a tight verify loop"
+  default_prompt: "Use $mv-execute to implement the selected plan and verify it."

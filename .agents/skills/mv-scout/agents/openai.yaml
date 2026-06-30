@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Scout"
+  short_description: "Find relevant files before acting"
+  default_prompt: "Use $mv-scout to map the files and evidence for this task."

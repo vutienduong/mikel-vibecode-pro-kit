@@ -1,0 +1,4 @@
+interface:
+  display_name: "MV Handoff"
+  short_description: "Summarize state for resume"
+  default_prompt: "Use $mv-handoff to summarize current work and next steps."
